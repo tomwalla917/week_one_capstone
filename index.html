@@ -8,6 +8,8 @@
 
   <body>
     <header>
+      <!--navigation menu along the header. Clicking on a refernce will bring you to the applicable section on the page.-->
+      <nav>
       <h1>The Legacy of <span class="kai">Kai</span></h1>
         <ul>
           <li>
@@ -20,11 +22,13 @@
             <a href="#locations">The Realm</a>
           </li>
         </ul>
+        </nav>
     </header>
-    <div class="hero-img"></div>
+    <div class="hero-img" alt="Image of an erupting volcano."></div>
+    <!--main body section of the webpage containing images with alttext and paragraphs telling the story of Kai, Finn and Eldros.-->
     <main>
       <section id="dragons" class="info">
-        <img src="./assets/images/kai.jpg" class="float-left" />
+        <img src="./assets/images/kai.jpg" class="float-left" alt="Image of Kai, a black dragon." />
         <h2>Forged by Flame</h2>
         <p>
           Kai’s bloodline runs deep—his father, Fillipi, a dragon of prophecy
@@ -36,7 +40,7 @@
         </p>
       </section>
       <section id="humans" class="info">
-        <img src="./assets/images/finn.jpg" class="float-right" />
+        <img src="./assets/images/finn.jpg" class="float-right" alt="Image of Finn wielding a sword."/>
         <h2>Bound by Honor</h2>
         <p>
           The Knights of the Eternal Flame, once sworn to slay dragons, found a
@@ -48,7 +52,7 @@
         </p>
       </section>
       <section id="locations" class="info">
-        <img src="./assets/images/forgottenIsle.jpg" class="float-left" />
+        <img src="./assets/images/forgottenIsle.jpg" class="float-left" alt="Image of Eldros, a forrested island with rocky cliffs." />
         <h2>The Realm of Eldros</h2>
         <p>
           From the Ember Mountains where dragons roost, to the Citadel of Flame
@@ -60,35 +64,37 @@
         </p>
       </section>
     </main>
-    <div class="items">
-      <div class="item-golden-sun">
+    <!--aside section with various chests annd descriptions of the loot they contain-->
+    <section class="items">
+      <aside class="item-golden-sun">
         <h3>Golden Sun Chest</h3>
-        <img src="./assets/images/goldenSunChest.jpg" />
+        <img src="./assets/images/goldenSunChest.jpg" alt="Image of a closed golden chest."/>
         <ul>
           <li>+500 Gold</li>
           <li>+2 Strength Potion</li>
           <li>Mystic Amulet</li>
         </ul>
-      </div>
-      <div class="item-frostbite-chest">
+      </aside>
+      <aside class="item-frostbite-chest">
         <h3>Frostbite Chest</h3>
-        <img src="./assets/images/frostbiteChest.jpg" />
+        <img src="./assets/images/frostbiteChest.jpg" alt="Image of an open blue chest containing ice crystals." />
         <ul>
           <li>+300 Gold</li>
           <li>Ice Crystal</li>
           <li>Frozen Blade</li>
         </ul>
-      </div>
-      <div class="item-mystic-chest">
+      </aside>
+      <aside class="item-mystic-chest">
         <h3>Mystic Chest</h3>
-        <img src="./assets/images/mysticChest.jpg" />
+        <img src="./assets/images/mysticChest.jpg" alt="Image of an ajar blue chest containing gold coins" />
         <ul>
           <li>+200 Gold</li>
           <li>Ancient Rune</li>
           <li>Arcane Staff</li>
         </ul>
-      </div>
-    </div>
+      </aside>
+    </section>
+    <!--footer giving credit to UCF-->
     <footer>
       <h2>Made with ⚔️ by UCF</h2>
       <p>&copy; 2025 Knights of the Eternal Flame, Inc.</p>
